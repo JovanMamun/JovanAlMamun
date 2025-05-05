@@ -3,25 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>রিহান করিম | Portfolio</title>
+  <title>জোভান মামুন | পোর্টফোলিও</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
     }
     .hero {
-      background-color: #007acc;
+      background: linear-gradient(135deg, #007acc, #005f99);
       color: white;
       padding: 100px 20px;
       text-align: center;
     }
-    .project-card {
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      border-radius: 10px;
+    .section-title {
+      margin: 40px 0 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #333;
-      color: white;
+      background-color: #343a40;
+      color: #ddd;
       text-align: center;
       padding: 30px 10px;
       margin-top: 50px;
@@ -39,48 +46,37 @@
 
   <!-- Hero Section -->
   <div class="hero">
-    <h1>রিহান করিম</h1>
-    <p class="lead">ওয়েব ডেভেলপার | ডিজাইনার | প্রযুক্তিপ্রেমী</p>
+    <h1>জোভান মামুন</h1>
+    <p class="lead">ওয়েব ডেভেলপার | প্রযুক্তিপ্রেমী | কনটেন্ট ক্রিয়েটর</p>
   </div>
 
-  <!-- About -->
-  <div class="container my-5">
-    <h2 class="mb-3">আমার সম্পর্কে</h2>
-    <p>আমি একজন ওয়েব ডেভেলপার, HTML, CSS, JavaScript ও Bootstrap নিয়ে কাজ করি। নতুন প্রযুক্তি শিখতে এবং বাস্তব প্রজেক্টে কাজে লাগাতে ভালোবাসি।</p>
-  </div>
+  <div class="container">
 
-  <!-- Projects -->
-  <div class="container my-5">
-    <h2 class="mb-3">আমার প্রজেক্টসমূহ</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="p-3 project-card">
-          <h5>প্রজেক্ট ১</h5>
-          <p>এই প্রজেক্টে আমি HTML এবং CSS ব্যবহার করেছি একটি রেসপনসিভ সাইট বানানোর জন্য।</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="p-3 project-card">
-          <h5>প্রজেক্ট ২</h5>
-          <p>JavaScript দিয়ে বানানো একটি সহজ ক্যালকুলেটর অ্যাপ।</p>
-        </div>
+    <!-- Audio Section -->
+    <h2 class="section-title text-center">🎵 অডিও শোনো</h2>
+    <div class="card mb-4 p-4">
+      <p class="mb-2">আমার ভয়েস/গান:</p>
+      <audio controls class="w-100">
+        <source src="audio.mp3" type="audio/mpeg">
+        আপনার ব্রাউজার অডিও প্লে করতে পারছে না।
+      </audio>
+    </div>
+
+    <!-- Video Section -->
+    <h2 class="section-title text-center">🎥 ভিডিও দেখো</h2>
+    <div class="card p-3">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
 
-  <!-- Contact -->
-  <div class="container my-5">
-    <h2 class="mb-3">যোগাযোগ</h2>
-    <p>ইমেইল: rihan@email.com</p>
-    <p>GitHub: <a href="https://github.com/rihankarim" target="_blank">rihankarim</a></p>
-    <p>LinkedIn: <a href="#" target="_blank">লিঙ্কডইন প্রোফাইল</a></p>
   </div>
 
   <!-- Footer -->
   <footer>
-    &copy; ২০২৫ রিহান করিম | সর্বস্বত্ব সংরক্ষিত
+    &copy; ২০২৫ জোভান মামুন | সর্বস্বত্ব সংরক্ষিত | <a href="mailto:email@example.com">email@example.com</a>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-  </html>
+</html>
